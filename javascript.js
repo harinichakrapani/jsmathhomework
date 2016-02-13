@@ -1,0 +1,14 @@
+var x= 2
+var y= 20
+var a= x+y 
+var b= x*y
+var c= x/y 
+var d= x-y
+document.getElementById("addition").innerHTML="When I add" + x +  "to" + y +  "I get"+ a;  
+document.getElementById("multiplication").innerHTML="When I multiply"+ x + "by" + y + "I get" + b; 
+document.getElementById("division").innerHTML="When I divide" + x + "by" + y + "I get" + c; 
+document.getElementById("subtraction").innerHTML="When I subtract" + x + "from" + y + "I get" + d; 
+document.getElementById("addition").style.color="red"; 
+document.getElementById("subtraction").style.color="blue"; 
+document.getElementById("division").style.color="orange"; 
+document.getElementById("multiplication").style.color="purple"; 
